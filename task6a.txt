@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+string check(char);
+main(){
+    cout<<"Enter a charcter: ";
+    char a;
+    cin>>a;
+    string result;
+result=check(a);
+cout<<result;
+}
+string check(char a){
+    if(a=='A'){
+        return"You enter c A";
+    }
+    if(a=='a'){
+        return"You enter small a":
+    }
+}
